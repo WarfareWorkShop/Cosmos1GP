@@ -39,3 +39,5 @@ gradio
 #xformers #==0.0.28.post2
 #flash-attn==2.6.0.post1
 #transformer_engine_torch
+torch>=2.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.46.2 # not directly required, pinned by Snyk to avoid a vulnerability
